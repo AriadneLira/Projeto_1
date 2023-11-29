@@ -1,0 +1,116 @@
+* {
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: rgb(114, 17, 17);
+    margin-bottom: 50px;
+}
+
+header h1,
+header a {
+    display: inline-flex;
+    margin: 15px;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    font-family: 'semibold 600';
+}
+
+header a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.Assinaturas {
+    display: inline-flex;
+    margin: 0 50px;
+}
+
+.imagem-2 img {
+    width: 300px;
+}
+
+.imagem-1 img {
+    width: 280px;
+}
+
+.imagem-3 img {
+    width: 290px;
+}
+
+.imagem-1,
+.imagem-2,
+.imagem-3 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.imagem-1 h3,
+.imagem-2 h3,
+.imagem-3 h3 {
+    color:  rgb(114, 17, 17);
+    margin-top: 10px;
+}
+
+.imagem-2 h3 {
+    margin-left: 25px;
+}
+
+.imagem-3 h3 {
+    margin-left: 30px;
+}
+
+.container {
+    display: inline-flex;
+    background-color: rgb(114, 17, 17);
+    padding-right: 350px;
+}
+
+.container .rodapé-1 .Formulário {
+    flex-direction: column;
+    padding-right: 350px;
+    margin-left: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.container .rodapé-1 .Formulário input {
+    margin-bottom: 10px;
+    padding-right: 60px;
+}
+
+.container .rodapé-1 .Formulário textarea {
+    margin-bottom: 10px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+
+.container .rodapé-1 .Formulário button {
+    width: 55px;
+}
+
+.container .rodapé-1 .Formulário h3{
+    margin-top: 20px;
+}
+
+footer .rodapé-2 img {
+    display:inline-flex;
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.container .rodapé-2 h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.container .rodapé-2 p {
+    color: rgb(255, 255, 255);
+}
